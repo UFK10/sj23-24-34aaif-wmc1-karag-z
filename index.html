@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+</html>
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unternehmen</title>
+    <link rel="stylesheet" href="css.css">
+</head>
+<body>
+    <header>Unternehmen_UFK</header>
+    <nav>
+        <ul>
+            <li><a href="#Unternehmenname">Unternehmenname</a></li>
+            <li><a href="Arbeiter">Arbeiter</a></li>
+            <li><a href="Adresse">Adresse</a></li> 
+        </ul>
+    </nav>
+
+    <section id="Unternehmen"></section>
+        <h2>Unternehmen</h2>
+        <p>Das Unternehmen wurde im Jahr 1992 von Mr.C und von Mr.B in Wien gegründet. Das Unternehmen ist seit 31 Jahren aktiv,<br> das Unternehmen hat im Ausland mehrere Filialen. Heutzutage arbeiten mehr als 400 Personen aktiv im Unternehmen </p>
+        <img src="Bild.jpg" >
+
+    </section>
+    <section id="Unternehmenname">
+        <h2>Unternehmenname</h2>
+
+        <p>Der Unternehmenname wurde nach Mr.X benannt bzw. um diese Person zu ehren
+            <ul>
+                
+                <li>Mr.AA</li>
+            </ul>
+        </p>
+    </section>
+
+    <section id="Arbeiter">
+        <h2>Arbeiter</h2>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>Tel.Nummer</th>
+                    <th>Name</th>
+                    <th>Versicherungsnummer</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>0660 8213245</td>
+                    <td>Thomas Müller</td>
+                    <td>0508041712</td>
+                </tr>
+                <tr>
+                    <td>0660 2138867</td>
+                    <td>Max Mustermann</td>
+                    <td>1101993344</td>
+                </tr>
+                <tr>
+                    <td>0676 8586219</td>
+                    <td>Felix Musterfrau</td>
+                    <td>2002871659</td>
+                </tr>
+                <tr>
+                    <td>0676 6669992</td>
+                    <td>Dusan Tadic</td>
+                    <td>2311801223</td>
+                </tr>
+                <tr>
+                    <td>0660 4902237</td>
+                    <td>Edin Dzeko</td>
+                    <td>2004976688</td>
+                </tr>
+                <tr>
+                    <td>0699 17202549</td>
+                    <td>Dominik Livakovic</td>
+                    <td>1101795225</td>
+                </tr>
+
+                <tr>
+                    <td>0660 99251523</td>
+                    <td>Anna Musteranna</td>
+                    <td>2311948062</td>
+                </tr>
+
+            </tbody>
+            <tfoot>
+                Unsere Arbeiterliste 
+            </tfoot>
+        </table>
+
+    </section>
+
+    <section id="Adresse">
+        <h2>Adresse : 1100 Wien Troststraße</h2>
+    </section>
+
+    
+        <form>
+            Name: <input type="text">
+
+            Versicherungsnummer: <input type="text">
+
+            Ich will mich Bewerben: <input type="checkbox">
+
+            <button>Abschicken</button>
+
+            <script>
+                const btn = document.querySelector("button");
+
+                btn.addEventListener('click', function() {
+                    alert("Sie wurden in den Newsletter-Verteiler aufgenommen!");
+                });
+            </script>
+        </form>
+    </footer>
+</body>
+</html>
