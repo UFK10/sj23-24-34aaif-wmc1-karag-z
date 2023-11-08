@@ -1,0 +1,99 @@
+body{
+    margin: 0px;
+    background-color: rgb(99, 99, 226);
+}
+p{
+    text-align: center;
+    color: azure;
+}
+h2{
+    text-align: center;
+}
+#image img {
+    width: 300px;
+    height: 400px;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  
+    
+}
+
+.navbar ul{
+    list-style-type: none; 
+    background-color: rgb(11, 11, 189);
+    padding:0px;
+    margin:0px;
+    overflow: hidden;
+    align-items: center;
+    justify-content: space-between;
+    float: none;
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+    
+   
+
+   
+}
+.navbar a{
+    color: azure;
+    text-decoration: none;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    nav ul li{
+        list-style-type: none;
+        display: inline-block;
+    }
+    
+   
+    
+    
+    
+}
+.navbar a:hover{
+    background-color: rgb(85, 85, 196);
+    color: red;
+}
+.navbar li{
+    float: left;
+}
+.navbar1 ul{
+    list-style-type: none;
+    background-color: rgb(11, 11, 189);
+    padding:0px;
+    margin:8px;
+    overflow: hidden;
+    align-items: center;
+    justify-content: space-between;
+    float: none;
+  position: absolute;
+  height: 5%;
+  width: auto;
+  left: 50%;
+  transform: translate(-50%, -50%);
+    
+   
+  
+    
+   
+}
+.navbar1 a{
+    color: azure;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+}
+.navbar1 a:hover{
+    background-color: rgb(15, 15, 224);
+    color: red;
+}
+.navbar1 li{
+    float: left;
+}
+
+
