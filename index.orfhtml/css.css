@@ -1,24 +1,23 @@
 body {
   font-family: "Source Sans Pro", Arial, sans-serif;
-  max-width: 1000px;
+  max-width: 55rem;
   margin: 0 auto;
 }
 
 header {
   color: white;
-  padding: 25px;
+  padding: 1rem;
   text-align: left;
-  background: #16416b;
+  background:#16416b;
 
 }
 
-p{
-  text-align: center;
-}
+
 
 nav ul li a {
   color: white;
   text-decoration: none;
+  
 }
 
 nav ul,
@@ -30,7 +29,7 @@ footer nav ul {
 nav ul li,
 footer nav ul li {
   display: inline;
-  margin-right: 20px;
+  margin-right: 1,2rem;
 }
 
 .navbar a:hover {
@@ -38,44 +37,51 @@ footer nav ul li {
 
 }
 
-#News {
+.News {
   background: steelblue;
   padding: 20px;
   margin-top: 10px;
-}
 
-#News h1,
-#News img {
+  
+}
+.News p:last-of-type{
+  text-align: center;
+}
+  
+
+.News h1,
+.News img {
   font-size: 24px;
   color: white;
   display: inline-block;
   vertical-align: middle;
   margin-right: 10px;
+  
 }
 
-#News h2,
-#News p {
+.News h2,
+.News p {
   margin-top: 10px;
   font-size: 16px;
   color: white;
 }
 
-#inland,
-#ausland {
+.inland,
+.ausland {
   background: white;
   color: black;
   padding-top: 50px;
 }
 
-#inland h1,
-#ausland h1 {
+.inland h1,
+.ausland h1 {
   font-size: 24px;
 }
 
-#inland h2,
-#ausland h2,
-#inland p,
-#ausland p {
+.inland h2,
+.ausland h2,
+.inland p,
+.ausland p {
   font-size: 20px;
   margin-top: 30px;
   margin-left: 20px;
@@ -84,20 +90,31 @@ footer nav ul li {
 img {
   max-width: 100%;
   height: auto;
+  background: steelblue;
+  
+  
 }
 
-#Wladimir-Putin {
+.Wladimir-Putin {
   padding: 20px;
   text-align: center;
   margin: 20px;
+  background: lightblue;
+  border-left: 10px solid dodgerblue;
+  
+  
 
 }
 
-#Wladimir-Putin img {
-  width: 100px;
+.Wladimir-Putin img {
+  width: 150px;
+  position: relative;
+  float: left;
+
+  
 }
 
-#Adresse {
+.Adresse {
   padding-top: 20px;
   margin-bottom: 20px;
   font-style: normal;
@@ -121,3 +138,6 @@ footer nav ul li {
   color: #fff;
   margin-left: 10px;
 }
+
+
+
