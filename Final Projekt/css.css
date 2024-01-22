@@ -1,4 +1,4 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;800&display=swap');
 
 
 * {
@@ -60,6 +60,7 @@ section {
 
 
 
+
 header {
     height: 100vh;
     background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.6)), url('images/Business.webp');
@@ -92,7 +93,6 @@ nav ul {
 nav ul li {
     display: inline-block;
     margin-left: 2.5rem;
-    
 }
 
 nav ul li a:hover {
@@ -244,6 +244,7 @@ input::placeholder {
     color: #4CAF50;
 }
 
+
 .testimony {
     background-color: #222;
     color: whitesmoke;
@@ -308,7 +309,8 @@ footer {
 
 
 
-@media only screen and (max-width:770px) {
+
+@media only screen and (max-width:768px) {
 
     .row{
         flex-direction: column;
@@ -325,7 +327,11 @@ footer {
         right: 32px;
     }
 
-    
+    nav ul {
+        background: whitesmoke;
+        display: none;
+    }
+
     .showmenu {
         display: block;
     }
@@ -366,10 +372,13 @@ footer {
         text-align: center;
     }
 
-  
+    
     .testimony .test{
         margin:1.6rem 0;
     }
 
-    
+    .contact form input,
+    .contact textarea{
+        width: 100%;
+    }
 }

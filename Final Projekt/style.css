@@ -1,4 +1,6 @@
-*{
+
+*
+{
     background-color: black;
 }
 h1{
@@ -62,3 +64,4 @@ button:hover{
     opacity: 80%;
     cursor: pointer;
 }
+
