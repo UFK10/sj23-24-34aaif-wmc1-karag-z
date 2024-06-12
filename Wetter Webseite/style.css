@@ -1,0 +1,88 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: skyblue;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header, main {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.WetterForm {
+    margin: 20px;
+}
+
+.Stadt {
+    padding: 10px;
+    font-size: 2rem;
+    font-weight: bold;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin: 10px;
+    width: 300px;
+}
+
+button[type="submit"] {
+    padding: 10px 20px;
+    font-weight: bold;
+    font-size: 2rem;
+    background-color: beige;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: aquamarine;
+}
+
+.Karte {
+    background: linear-gradient(180deg, hsl(210, 100%, 75%), orange);
+    padding: 50px;
+    box-shadow: 2px 2px 5px black;
+    min-width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    font-size: 3.5rem;
+    margin-top: 0;
+    margin-bottom: 25px;
+}
+
+p {
+    font-size: 2rem;
+    margin: 5px;
+}
+
+.Stadtdisplay, .Temperaturdisplay {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: black;
+    margin-bottom: 25px;
+}
+
+.Feuchtigkeitdisplay {
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+
+.WetterEmoji {
+    margin: 0;
+    font-size: 3.3rem;
+}
+
+.Erorrdisplay {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: black;
+}
